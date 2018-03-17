@@ -1,0 +1,105 @@
+.container{
+  display: flex;
+  flex-direction: column
+}
+
+.head-image{
+  width: 750rpx;
+  height: 460rpx;
+}
+
+.audio{
+  width: 102rpx;
+  height: 110rpx;
+  /*绝对定位  */
+  position: absolute;
+  top: 180rpx;
+  left: 50%; 
+  /*居中  */
+  margin-left: -51rpx; 
+  /*透明度  */
+  opacity: 0.6
+}
+
+.author-data{
+  flex-direction: row;
+  margin-left: 30rpx;
+  margin-top: 20rpx;
+}
+
+.avatar{
+  height: 64rpx;
+  width: 64rpx;
+  vertical-align: middle;
+}
+
+.author{
+  font-size: 30rpx;
+  font-weight: 300;
+  margin-left: 20rpx;
+  vertical-align: middle;
+  color: #666;
+}
+
+.const-text{
+  font-size: 24rpx;
+  color: #999;
+  margin-left: 20rpx;
+  vertical-align: middle;
+}
+
+.date{
+  font-size: 24rpx;
+  color: #999;
+  margin-left: 20rpx;
+  vertical-align: middle;
+}
+
+.title{
+  margin-left: 40rpx;
+  margin-top: 30rpx;
+  font-size: 36rpx;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #4b556c;
+}
+
+.tool{
+  margin-top: 20rpx;
+}
+
+.circle-img{
+  /*右浮动  */
+  float: right;
+  margin-right: 40rpx;
+  vertical-align: middle
+}
+
+.circle-img Image{
+  width: 90rpx;
+  height: 90rpx;
+}
+
+.share-img{
+  margin-left: 30rpx;
+}
+
+.horizon{
+  width: 660rpx;
+  height: 2px;
+  background-color: #e5e5e5;
+  vertical-align: middle;
+  /*相对布局  */
+  position: relative;
+  /*重叠顺序  */
+  z-index: -99;
+  top: 46rpx;
+  margin: 0 auto;
+}
+
+.detail{
+  color: #666;
+  line-height: 44rpx;
+  letter-spacing: 2rpx;
+  margin: 20rpx 30rpx 0 30rpx;
+}
